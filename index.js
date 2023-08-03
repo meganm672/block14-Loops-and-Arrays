@@ -204,4 +204,30 @@ console.log(newArray4);
 
 //FizzBuzz
 
-//
+//create code the prints each number 1-100 on a new line
+
+//for each multiple of 3 print 'Fizz' instead of num
+
+//for each mutilple of 5 print 'Buzz' instead of num
+
+//for nums that are mutiples of both 3 and 5 print 'FizzBuzz' instead of num
+
+for(let i= 1; i <=100; i++){
+    //nums divisible by 3 and 5 are divisible by 15
+    //print fizzbuzz in place of num
+    if(i % 15 === 0){
+        console.log("FizzBuzz")
+    }
+    //print fizz in place of num if divisble by 3
+    else if (i % 3=== 0){
+        console.log("Fizz")
+    }
+    //print buzz in place of num if divisible by 5
+    else if(i % 5 === 0){
+        console.log("Buzz")
+    }
+    // if none of the above are satisfied print num
+    else{
+        console.log(i)
+    }
+}
