@@ -58,92 +58,105 @@ console.log(oddNum4);
 //all other letters are a consonant
 
 
-const vowels = [];
+let vowels = 0;
 
-const consonants = [];
+let consonants = 0;
 
 const hello = "hello";
 console.log(hello)
 
 for(let i=0; i < hello.length; i++){
-    if( hello[i] === 'a' ||
-    hello[i]=== 'e' ||
-    hello[i] === 'i' ||
-    hello[i] === 'o' ||
-    hello[i] === 'u'){
-        vowels.push(hello[i]);
+    let char = hello[i];
+    if( char === 'a' ||
+    char === 'e' ||
+    char === 'i' ||
+    char === 'o' ||
+    char === 'u'){
+        vowels++;
     }else{
-        consonants.push(hello[i]);
+        consonants++;
     }
 }
-console.log("The Vowels are :" + vowels);
-console.log("The Consonants are :" + consonants);
+console.log("hello has "+consonants + " consonants and "+ vowels + " vowels");
+
+
+vowels = 0;
+consonants = 0;
 
 const stringInst = "ukelele";
 console.log(stringInst);
 
 for(let i=0; i < stringInst.length; i++){
-    if( stringInst[i] === 'a' ||
-    stringInst[i]=== 'e' ||
-    stringInst[i] === 'i' ||
-    stringInst[i] === 'o' ||
-    stringInst[i] === 'u'){
-        vowels.push(stringInst[i]);
+    let char = stringInst[i];
+    if( char === 'a' ||
+    char === 'e' ||
+    char === 'i' ||
+    char === 'o' ||
+    char === 'u'){
+        vowels++;
     }else{
-        consonants.push(stringInst[i]);
+        consonants++;
     }
 }
-console.log("The Vowels are :" + vowels);
-console.log("The Consonants are :" + consonants);
+console.log("ukelele has "+consonants + " consonants and "+ vowels + " vowels");
+
+vowels = 0;
+consonants = 0;
 
 const awesome = "awesome";
 console.log(awesome)
 
 for(let i=0; i < awesome.length; i++){
-    if( awesome[i] === 'a' ||
-    awesome[i]=== 'e' ||
-    awesome[i] === 'i' ||
-    awesome[i] === 'o' ||
-    awesome[i] === 'u'){
-        vowels.push(awesome[i]);
+    let char = awesome[i];
+    if( char === 'a' ||
+    char === 'e' ||
+    char === 'i' ||
+    char === 'o' ||
+    char === 'u'){
+        vowels++;
     }else{
-        consonants.push(awesome[i]);
+        consonants++;
     }
 }
-console.log("The Vowels are :" + vowels);
-console.log("The Consonants are :" + consonants);
+console.log("awesome has "+consonants + " consonants and "+ vowels + " vowels");
+
+vowels = 0;
+consonants = 0;
+
 
 const onomonopia = "onomonopia";
 console.log(onomonopia);
 
 for(let i=0; i < onomonopia.length; i++){
-    if( onomonopia[i] === 'a' ||
-    onomonopia[i]=== 'e' ||
-    onomonopia[i] === 'i' ||
-    onomonopia[i] === 'o' ||
-    onomonopia[i] === 'u'){
-        vowels.push(onomonopia[i]);
+    let char = onomonopia[i];
+    if( char === 'a' ||
+    char === 'e' ||
+    char === 'i' ||
+    char === 'o' ||
+    char === 'u'){
+        vowels++;
     }else{
-        consonants.push(onomonopia[i]);
+        consonants++;
     }
 }
-console.log("The Vowels are :" + vowels);
-console.log("The Consonants are :" + consonants);
+console.log("onomonopia has "+consonants + " consonants and "+ vowels + " vowels");
+
+vowels = 0;
+consonants = 0;
 
 const book = "textbook";
 console.log(book)
 
 for(let i=0; i < book.length; i++){
-    if( book[i] === 'a' ||
-    book[i]=== 'e' ||
-    book[i] === 'i' ||
-    book[i] === 'o' ||
-    book[i] === 'u'){
-        vowels.push(book[i]);
+    let char = book[i];
+    if( char === 'a' ||
+    char === 'e' ||
+    char === 'i' ||
+    char === 'o' ||
+    char === 'u'){
+        vowels++;
     }else{
-        consonants.push(book[i]);
+        consonants++;
     }
 }
-console.log("The Vowels are :" + vowels);
-console.log("The Consonants are :" + consonants);
-
+console.log("textbook has "+consonants + " consonants and "+ vowels + " vowels");
