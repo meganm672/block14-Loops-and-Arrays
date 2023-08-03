@@ -47,4 +47,103 @@ for(let i=0; i < array4.length; i++){
 }
 console.log(oddNum4);
 
-//Vowel ver
+//Vowel versus Consonant
+
+//create javascript code that acceps a string of lowercase letters
+
+//print the word followed by how many consonants and vowels it has
+
+//'a' 'e' 'i' 'o' 'u' are vowels
+
+//all other letters are a consonant
+
+
+const vowels = [];
+
+const consonants = [];
+
+const hello = "hello";
+console.log(hello)
+
+for(let i=0; i < hello.length; i++){
+    if( hello[i] === 'a' ||
+    hello[i]=== 'e' ||
+    hello[i] === 'i' ||
+    hello[i] === 'o' ||
+    hello[i] === 'u'){
+        vowels.push(hello[i]);
+    }else{
+        consonants.push(hello[i]);
+    }
+}
+console.log("The Vowels are :" + vowels);
+console.log("The Consonants are :" + consonants);
+
+const stringInst = "ukelele";
+console.log(stringInst);
+
+for(let i=0; i < stringInst.length; i++){
+    if( stringInst[i] === 'a' ||
+    stringInst[i]=== 'e' ||
+    stringInst[i] === 'i' ||
+    stringInst[i] === 'o' ||
+    stringInst[i] === 'u'){
+        vowels.push(stringInst[i]);
+    }else{
+        consonants.push(stringInst[i]);
+    }
+}
+console.log("The Vowels are :" + vowels);
+console.log("The Consonants are :" + consonants);
+
+const awesome = "awesome";
+console.log(awesome)
+
+for(let i=0; i < awesome.length; i++){
+    if( awesome[i] === 'a' ||
+    awesome[i]=== 'e' ||
+    awesome[i] === 'i' ||
+    awesome[i] === 'o' ||
+    awesome[i] === 'u'){
+        vowels.push(awesome[i]);
+    }else{
+        consonants.push(awesome[i]);
+    }
+}
+console.log("The Vowels are :" + vowels);
+console.log("The Consonants are :" + consonants);
+
+const onomonopia = "onomonopia";
+console.log(onomonopia);
+
+for(let i=0; i < onomonopia.length; i++){
+    if( onomonopia[i] === 'a' ||
+    onomonopia[i]=== 'e' ||
+    onomonopia[i] === 'i' ||
+    onomonopia[i] === 'o' ||
+    onomonopia[i] === 'u'){
+        vowels.push(onomonopia[i]);
+    }else{
+        consonants.push(onomonopia[i]);
+    }
+}
+console.log("The Vowels are :" + vowels);
+console.log("The Consonants are :" + consonants);
+
+const book = "textbook";
+console.log(book)
+
+for(let i=0; i < book.length; i++){
+    if( book[i] === 'a' ||
+    book[i]=== 'e' ||
+    book[i] === 'i' ||
+    book[i] === 'o' ||
+    book[i] === 'u'){
+        vowels.push(book[i]);
+    }else{
+        consonants.push(book[i]);
+    }
+}
+console.log("The Vowels are :" + vowels);
+console.log("The Consonants are :" + consonants);
+
