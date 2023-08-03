@@ -160,3 +160,48 @@ for(let i=0; i < book.length; i++){
     }
 }
 console.log("textbook has "+consonants + " consonants and "+ vowels + " vowels");
+
+//Reverse Array
+
+//with a for loop create code that creates a new array in reverse order
+
+// input array 1
+const reverseNum1 = [1,2,3];
+const newArray1 = [];
+
+for(let i=0; i <reverseNum1.length; i++){
+    newArray1[i] = reverseNum1[reverseNum1.length - i - 1];
+}
+
+console.log(newArray1);
+//inout array 2
+const reverseNum2 = [1,3,5,7,9,11];
+const newArray2 = [];
+
+for(let i=0; i <reverseNum2.length; i++){
+    newArray2[i] = reverseNum2[reverseNum2.length - i - 1];
+}
+
+console.log(newArray2);
+//input array3
+const reverseNum3 = [20,50,30,60,200];
+const newArray3 = [];
+
+for(let i=0; i <reverseNum3.length; i++){
+    newArray3[i] = reverseNum3[reverseNum3.length - i - 1];
+}
+
+console.log(newArray3);
+//input array 4
+const reverseNum4 = [1,-1,2,-3,5,-8,13];
+const newArray4 = [];
+
+for(let i=0; i <reverseNum4.length; i++){
+    newArray4[i] = reverseNum4[reverseNum4.length - i - 1];
+}
+
+console.log(newArray4);
+
+//FizzBuzz
+
+//
