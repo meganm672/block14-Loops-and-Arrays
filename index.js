@@ -59,7 +59,6 @@ console.log(oddNum4);
 
 
 let vowels = 0;
-
 let consonants = 0;
 
 const hello = "hello";
@@ -202,6 +201,16 @@ for(let i=0; i <reverseNum4.length; i++){
 
 console.log(newArray4);
 
+
+// const inputArray = [1, -1, 2, -3, 5, -8, 13];
+// const reversedArray = [];
+
+// for (let i = inputArray.length - 1; i >= 0; i--) {
+//     reversedArray.push(inputArray[i])
+// };
+
+// console.log(reversedArray)
+
 //FizzBuzz
 
 //create code the prints each number 1-100 on a new line
@@ -231,3 +240,15 @@ for(let i= 1; i <=100; i++){
         console.log(i)
     }
 }
+
+// for (let i = 1; i < 100; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("FizzBuzz");
+//     } else if (i % 5 === 0) {
+//         console.log("Buzz");
+//     } else if (i % 3 === 0) {
+//         console.log("Fizz");
+//     } else {
+//         console.log(i);
+//     }
+// }
